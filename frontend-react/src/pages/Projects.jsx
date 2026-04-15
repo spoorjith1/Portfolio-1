@@ -4,6 +4,7 @@ import ProjectCard from "../components/ui/ProjectCard";
 function Projects() {
   return (
     <section className="projects-section">
+
       <div className="container">
 
         <h2 className="section-title text-center mb-5">Projects</h2>

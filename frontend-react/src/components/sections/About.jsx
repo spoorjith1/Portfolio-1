@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 function About() {
   return (
@@ -14,7 +15,10 @@ function About() {
       <p className="about-text">
         Currently, Im looking for opportunities where I can contribute, learn, grow and prove myself as a developer.
       </p>
-
+      <br />
+      <div>
+        <Link to='/certificates' className='certificates-link'>My Certificates</Link>
+      </div>
     </div>
   </section>
   )

@@ -1,9 +1,8 @@
-import { useParams, useNavigate } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import projects from "../data/projects";
 
 function ProjectDetails() {
   const { id } = useParams();
-  const navigate = useNavigate();
 
   const project = projects.find((p) => p.id === Number(id));
 
@@ -17,12 +16,8 @@ function ProjectDetails() {
 
   return (
     <section className="project-details-section">
+      
       <div className="container">
-
-        {/* 🔙 Back Button */}
-        <button onClick={() => navigate(-1)} className="back-btn">
-          <i className="fas fa-arrow-left"></i> Back
-        </button>
 
         {/* Title */}
         <h2 className="details-title">{project.title}</h2>
@@ -36,6 +31,10 @@ function ProjectDetails() {
 
         {/* Description */}
         <p className="details-text">{project.details}</p>
+
+        <div className="detail-live-demo-div">
+          <a href={project.live} target='_blank' class='detail-live-demo'>Live Demo</a>
+        </div>
 
         {/* Features */}
         <h4 className="details-subtitle">Features</h4>

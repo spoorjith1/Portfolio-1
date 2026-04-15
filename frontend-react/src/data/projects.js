@@ -1,7 +1,7 @@
 const projects = [
   {
     id: 1,
-    title: "E-commerce API",
+    title: "ClickMart Shopping App",
     description: "REST API with authentication, cart, and order management.",
     
     details:
@@ -17,14 +17,19 @@ const projects = [
     tech: ["Django", "DRF", "PostgreSQL"],
 
     image:
-      "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d",
+      "/clickmart/clickmart0.png",
 
     images: [
-      "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d",
-      "https://images.unsplash.com/photo-1522202176988-66273c2fd55f"
+      "/clickmart/clickmart1.png",
+      "/clickmart/clickmart2.png",
+      "/clickmart/clickmart3.png",
+      "/clickmart/clickmart4.png",
+      "/clickmart/clickmart5.png",
     ],
 
-    github: "https://github.com/yourusername/ecommerce-api"
+    github: "https://github.com/yourusername/ecommerce-api",
+
+    live: "https://clickmartsp.shop"
   },
 
   {

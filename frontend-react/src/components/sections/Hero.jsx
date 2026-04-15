@@ -15,6 +15,7 @@ function Hero() {
             <p className="hero-text">
               I build scalable backend systems, APIs, and full-stack applications.
             </p>
+            <a href="mailto:spoorjith1@gmail.com" target="_blank" className='hero-mail'>spoorjith1@gmail.com</a>
 
             <div className="d-flex gap-3 justify-content-center justify-content-md-start mt-3">
               <a href="/projects" className="btn btn-orange">
@@ -23,13 +24,16 @@ function Hero() {
               <a href="/contact" className="btn btn-outline-light">
                 <i className='fas fa-envelope'></i> Contact Me
               </a>
+              <a href="/resume" className='btn btn-outline-light'>
+                Resume
+              </a>
             </div>
           </div>
 
           {/* Right Side (Photo) */}
           <div className="col-md-6 text-center">
             <img
-              src="profile.jpg"
+              src="profile.png"
               alt="profile"
               className="hero-img"
             />
