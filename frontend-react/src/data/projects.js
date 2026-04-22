@@ -11,10 +11,11 @@ const projects = [
       "JWT Authentication",
       "Cart & Order System",
       "Admin Dashboard",
+      "order history",
       "Secure API endpoints"
     ],
 
-    tech: ["Django", "DRF", "PostgreSQL"],
+    tech: ["Django", "DRF", "React.js", "PostgreSQL"],
 
     image:
       "/clickmart/clickmart0.png",
@@ -34,30 +35,39 @@ const projects = [
 
   {
     id: 2,
-    title: "Task Manager",
-    description: "Full-stack app with CRUD and JWT authentication.",
+    title: "Stock Prediction Portal",
+    description: "An stock prediction portal . built using yfinance package",
 
     details:
-      "A full-stack task management system built with React and Django. Users can create, update, and delete tasks with authentication. Designed with RESTful APIs and clean UI.",
+      "An stock prediction portal . built using yfinance package used minconda jupyter notebook for testing the predictions using python's numpy pandas matplotlib modules. ",
 
     features: [
+      "AI ML",
+      "accurate prediction of stock of [Google(GOOG), Tesla(TSLA), Apple(AAPL), ...]",
       "User Authentication",
-      "CRUD Operations",
-      "Responsive UI",
-      "REST API Integration"
+      "yfinance"
     ],
 
-    tech: ["React", "Django", "SQLite"],
+    tech: ["numpy, pandas, matplotlib", "django", "ML", "react"],
 
     image:
-      "https://images.unsplash.com/photo-1519389950473-47ba0277781c",
+      "/stockprediction/stockpred2.png",
 
     images: [
-      "https://images.unsplash.com/photo-1519389950473-47ba0277781c",
-      "https://images.unsplash.com/photo-1498050108023-c5249f4df085"
+      "/stockprediction/stockpred1.png",
+      "/stockprediction/stockpred2.png",
+      "/stockprediction/stockpred3.png",
+      "/stockprediction/stockpred4.png",
+      "/stockprediction/stockpred5.png",
+      "/stockprediction/stockpred6.png",
+      "/stockprediction/stockjupyter1.png",
+      "/stockprediction/stockjupyter2.png",
+      "/stockprediction/stockjupyter3.png",
     ],
 
-    github: "https://github.com/yourusername/task-manager"
+    github: "https://github.com/spoorjith1/stock-prediction-Portal",
+
+    live: ""
   },
 
   {
@@ -85,7 +95,9 @@ const projects = [
       "https://images.unsplash.com/photo-1508780709619-79562169bc64"
     ],
 
-    github: "https://github.com/yourusername/blog-api"
+    github: "https://github.com/yourusername/blog-api",
+
+    live: ""
   },
 
   {
@@ -113,7 +125,9 @@ const projects = [
       "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4"
     ],
 
-    github: "https://github.com/yourusername/chat-app"
+    github: "https://github.com/yourusername/chat-app",
+
+    live: ""
   },
 
   {
@@ -141,35 +155,40 @@ const projects = [
       "https://images.unsplash.com/photo-1498050108023-c5249f4df085"
     ],
 
-    github: "https://github.com/yourusername/portfolio"
+    github: "https://github.com/yourusername/portfolio",
+
+    live: ""
   },
 
   {
     id: 6,
-    title: "Expense Tracker",
-    description: "Track daily expenses with analytics.",
+    title: "Movies Search (React Mini Project)",
+    description: "Display the latest movies, search any movie & add to favorites",
 
     details:
-      "An expense tracking application that allows users to manage daily expenses and visualize spending patterns with charts.",
+      "Using React built an movie search application that can display the latest movies on home se=creen and an search option for searching an movie and movies can be added to favorites. For the API i used TMDB api key which can be accessed by anyone just by signup to the application.",
 
     features: [
-      "Expense tracking",
-      "Analytics dashboard",
+      "Movies search",
+      "add to favorites",
       "Category filtering",
       "Responsive design"
     ],
 
-    tech: ["React", "Chart.js", "Node.js"],
+    tech: ["React", "TMDB API"],
 
     image:
-      "https://images.unsplash.com/photo-1554224155-6726b3ff858f",
+      "/moviesearch/moviesearch1.png",
 
     images: [
-      "https://images.unsplash.com/photo-1554224155-6726b3ff858f",
-      "https://images.unsplash.com/photo-1560472354-b33ff0c44a43"
+      "/moviesearch/moviesearch1.png",
+      "/moviesearch/moviesearch2.png",
+      "/moviesearch/moviesearch3.png"
     ],
 
-    github: "https://github.com/yourusername/expense-tracker"
+    github: "https://github.com/spoorjith1/React-Projects/tree/main/Movie-Search/frontend",
+
+    live: "https://movie-search-sp.netlify.app"
   }
 ];
 

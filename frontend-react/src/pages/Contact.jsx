@@ -27,7 +27,7 @@ function Contact() {
             <a href="https://profile.indeed.com/?hl=en_IN&co=IN&from=gnav-jobseeker-profile--profile-one-frontend" target="_blank" className="social-link">
               <i className="fas fa-briefcase"></i> Indeed
             </a>
-            <a href="#" target="_blank" className="social-link">
+            <a href="https://www.naukri.com/mnjuser/profile?id=&altresid" target="_blank" className="social-link">
               <i className="fas fa-user-tie"></i> Naukri
             </a>
           </div>
