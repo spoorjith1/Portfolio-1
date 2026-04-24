@@ -419,6 +419,14 @@ body {
 .code-btn {
   flex: 1;
 }
+@media (max-width: 768px) {
+  .details-btn {
+    flex: 3;
+  }
+  .code-btn {
+    flex: 2;
+  }
+}
 
 .about-section {
   padding: 80px 0;
