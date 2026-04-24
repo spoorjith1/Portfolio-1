@@ -1,7 +1,7 @@
 :root {
   --bg: #050505;
-  --bg-secondary: #111111;
-  --bg-card: #161616;
+  --bg-secondary: #222222;
+  --bg-card: #101010;
 
   --text-primary: #F5F5F5;
   --text-secondary: #A3A3A3;
@@ -16,7 +16,7 @@
   --border: #ffffff14;
   --border-strong: #ffffff26;
 
-  --card-bg: #ffffff05;
+  --card-bg: #393939;
 }
 
 
