@@ -19,13 +19,13 @@ function Hero() {
             <a href="mailto:spoorjith1@gmail.com" target="_blank" className='hero-mail'>spoorjith1@gmail.com</a>
 
             <div className="d-flex gap-3 justify-content-center justify-content-md-start mt-3">
-              <Link to="/projects" className="btn btn-orange">
+              <Link to="/projects" className="btn btn-orange heros-btn">
                 View Projects
               </Link>
-              <Link to="/contact" className="btn btn-outline-light">
+              <Link to="/contact" className="btn btn-outline-light heros-btn">
                 <i className='fas fa-envelope'></i> Contact Me
               </Link>
-              <Link to="/resume" className='btn btn-outline-light'>
+              <Link to="/resume" className='btn btn-outline-light heros-btn'>
                 Resume
               </Link>
             </div>
