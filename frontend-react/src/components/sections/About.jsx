@@ -6,7 +6,7 @@ function About() {
   <section className="about-section">
     <div className="container text-center">
 
-      <h2 className="section-title mb-4">Me</h2>
+      <h2 className="section-title mb-4">About Me</h2>
 
       <p className="about-text">
         Hi, Im a backend-focused full stack developer. passionate about building APIs, efficient systems using Django and DRF, and Building frontend applications using react and css.
