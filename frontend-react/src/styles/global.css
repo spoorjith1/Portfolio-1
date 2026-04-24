@@ -515,3 +515,6 @@ body {
 .hero-mail {
   text-decoration: none;
 }
+.hero-mail:hover {
+  text-decoration: underline;
+}

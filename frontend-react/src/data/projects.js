@@ -72,20 +72,50 @@ const projects = [
 
   {
     id: 3,
-    title: "Blog API",
-    description: "REST API with authentication and comments system.",
+    title: "Authentication system using DRF_JWT",
+    description: "Backend Authentication system for register, login and CRUD operations",
 
     details:
-      "Backend system for a blogging platform with user authentication, post creation, and comments. Implemented permissions and role-based access.",
+      "A real-time Backend API's for secure login, register new user, edit the profile and delete the user using django, rest_framework and simple_jwt",
+
+    features: [
+      "secure APIs",
+      "Authenticated Access",
+      "password hashing",
+      "AbstractUser"
+    ],
+
+    tech: ["Django", "DRF", "Simple JWT"],
+
+    image:
+      "",
+
+    images: [
+      "",
+      ""
+    ],
+
+    github: "https://github.com/spoorjith1/authentication_drf_jwt",
+
+    live: ""
+  },
+
+  {
+    id: 4,
+    title: "Mini Instagram (social media app)",
+    description: "DRF APIs with Authentication and Secure user profiles",
+
+    details:
+      "built an mini intsgaram type app where an user have to login to access the app. user can posts images, user can send friend request to others and can view there posts after becoming friends secure and easy images sharing app.",
 
     features: [
       "User Authentication",
-      "Post & Comment System",
-      "Permissions & Roles",
-      "API Pagination"
+      "Posts & friend requests",
+      "Permissions",
+      "Restful APIs"
     ],
 
-    tech: ["Django", "DRF"],
+    tech: ["Django", "DRF", "React", "Postgresql"],
 
     image:
       "https://images.unsplash.com/photo-1492724441997-5dc865305da7",
@@ -96,36 +126,6 @@ const projects = [
     ],
 
     github: "https://github.com/yourusername/blog-api",
-
-    live: ""
-  },
-
-  {
-    id: 4,
-    title: "Chat Application",
-    description: "Real-time chat app using WebSockets.",
-
-    details:
-      "A real-time messaging application using Django Channels and WebSockets. Supports live chat between users with instant updates.",
-
-    features: [
-      "Real-time messaging",
-      "WebSocket integration",
-      "User sessions",
-      "Live updates"
-    ],
-
-    tech: ["Django", "Channels", "WebSockets"],
-
-    image:
-      "https://images.unsplash.com/photo-1525182008055-f88b95ff7980",
-
-    images: [
-      "https://images.unsplash.com/photo-1525182008055-f88b95ff7980",
-      "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4"
-    ],
-
-    github: "https://github.com/yourusername/chat-app",
 
     live: ""
   },

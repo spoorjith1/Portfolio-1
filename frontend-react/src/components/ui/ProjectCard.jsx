@@ -15,7 +15,12 @@ function ProjectCard({ project }) {
             <span key={index}>{tech}</span>
           ))}
         </div>
-        <a href={project.live} target='_blank' className='live-demo'>Live Demo ↗</a>
+        {project.live == "" ? (
+          <div>
+          </div>) : (
+          <div>
+            <a href={project.live} target='_blank' className='live-demo'>Live Demo ↗</a>
+          </div>)}
       </div>
 
       <div className='project-buttons'>
