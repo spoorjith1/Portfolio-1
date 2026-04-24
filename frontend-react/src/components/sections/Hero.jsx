@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Hero() {
   return (
@@ -18,15 +19,15 @@ function Hero() {
             <a href="mailto:spoorjith1@gmail.com" target="_blank" className='hero-mail'>spoorjith1@gmail.com</a>
 
             <div className="d-flex gap-3 justify-content-center justify-content-md-start mt-3">
-              <a href="/projects" className="btn btn-orange">
+              <Link to="/projects" className="btn btn-orange">
                 View Projects
-              </a>
-              <a href="/contact" className="btn btn-outline-light">
+              </Link>
+              <Link to="/contact" className="btn btn-outline-light">
                 <i className='fas fa-envelope'></i> Contact Me
-              </a>
-              <a href="/resume" className='btn btn-outline-light'>
+              </Link>
+              <Link to="/resume" className='btn btn-outline-light'>
                 Resume
-              </a>
+              </Link>
             </div>
           </div>
 
