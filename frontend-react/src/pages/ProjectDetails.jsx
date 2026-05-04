@@ -1,8 +1,16 @@
 import { useParams } from "react-router-dom";
 import projects from "../data/projects";
+import { useEffect } from "react";
 
 function ProjectDetails() {
   const { id } = useParams();
+
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  }, []);
 
   const project = projects.find((p) => p.id === Number(id));
 
@@ -32,9 +40,11 @@ function ProjectDetails() {
         {/* Description */}
         <p className="details-text">{project.details}</p>
 
-        <div className="detail-live-demo-div">
-          <a href={project.live} target='_blank' class='detail-live-demo'>Live Demo</a>
-        </div>
+        {project.live ? (
+          <div className="detail-live-demo-div">
+            <a href={project.live} target='_blank' class='detail-live-demo'>Live Demo</a>
+          </div>
+        ) : (<div>-</div>)}
 
         {/* Features */}
         <h4 className="details-subtitle">Features</h4>

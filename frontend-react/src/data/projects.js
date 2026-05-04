@@ -118,11 +118,10 @@ const projects = [
     tech: ["Django", "DRF", "React", "Postgresql"],
 
     image:
-      "https://images.unsplash.com/photo-1492724441997-5dc865305da7",
+      "",
 
     images: [
-      "https://images.unsplash.com/photo-1492724441997-5dc865305da7",
-      "https://images.unsplash.com/photo-1508780709619-79562169bc64"
+      "",
     ],
 
     github: "https://github.com/yourusername/blog-api",
@@ -132,30 +131,31 @@ const projects = [
 
   {
     id: 5,
-    title: "Portfolio Website",
-    description: "Personal portfolio built with React and Bootstrap.",
+    title: "Note Book",
+    description: "Personal notebook, write and save your notes online",
 
     details:
-      "A responsive portfolio website showcasing projects, skills, and contact information. Built with React and styled using Bootstrap and custom CSS.",
+      "A responsive note book with CRUD operations where a user need to login to start the notebook and can access the previous notes and also update them and delete them. the note book is well organized and authenticated only user can see there personal notes and no one else.",
 
     features: [
-      "Responsive Design",
-      "Dynamic Routing",
-      "Clean UI",
-      "Project Showcase"
+      "Storing notes",
+      "Editing & Deleting",
+      "Authorized user protection",
     ],
 
-    tech: ["React", "Bootstrap", "CSS"],
+    tech: ["Python", "Django - DRF", "React"],
 
     image:
-      "https://images.unsplash.com/photo-1461749280684-dccba630e2f6",
+      "/notebook/notebook0.png",
 
     images: [
-      "https://images.unsplash.com/photo-1461749280684-dccba630e2f6",
-      "https://images.unsplash.com/photo-1498050108023-c5249f4df085"
+      "/notebook/notebook1.png",
+      "/notebook/notebook2.png",
+      "/notebook/notebook3.png",
+      "/notebook/notebook4.png"
     ],
 
-    github: "https://github.com/yourusername/portfolio",
+    github: "https://github.com/spoorjith1/Note_Book_DRF",
 
     live: ""
   },
