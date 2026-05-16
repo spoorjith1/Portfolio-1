@@ -9,7 +9,7 @@ function Projects() {
 
         <h2 className="section-title text-center mb-5">Projects</h2>
 
-        <div className="row g-4">
+        <div className="row g-4 justify-content-center">
           {projects.map((project) => (
             <div className="col-md-6 col-lg-4" key={project.id}>
               <ProjectCard project={project} />
