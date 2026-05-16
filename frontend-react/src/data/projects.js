@@ -33,6 +33,8 @@ const projects = [
     live: "https://clickmartsp.shop"
   },
 
+
+
   {
     id: 2,
     title: "Stock Prediction Portal",
@@ -70,6 +72,8 @@ const projects = [
     live: ""
   },
 
+
+
   {
     id: 3,
     title: "Authentication system using DRF_JWT",
@@ -100,6 +104,8 @@ const projects = [
     live: ""
   },
 
+
+
   {
     id: 4,
     title: "Mini Instagram (social media app)",
@@ -128,6 +134,8 @@ const projects = [
 
     live: ""
   },
+
+
 
   {
     id: 5,
@@ -160,6 +168,8 @@ const projects = [
     live: ""
   },
 
+
+
   {
     id: 6,
     title: "Movies Search (React Mini Project)",
@@ -189,6 +199,36 @@ const projects = [
     github: "https://github.com/spoorjith1/React-Projects/tree/main/Movie-Search/frontend",
 
     live: "https://movie-search-sp.netlify.app"
+  },
+
+
+  {
+    id: 7,
+    title: "Chat App",
+    description: "chat with friends privately and securely",
+
+    details:
+      "Using Django-DRF and django channels, search-filters and react for frontend built an chatting application where a user can login and send friend requests to other users and can chat with them one-one privately.",
+
+    features: [
+      "Authentication",
+      "Private Chat",
+      "Secure",
+      "Responsive design"
+    ],
+
+    tech: ["Django-DRF", "Django channels", "search filters", "React.js"],
+
+    image:
+      "",
+
+    images: [
+      ""
+    ],
+
+    github: "https://github.com/spoorjith1/Private-Chat-app",
+
+    live: ""
   }
 ];
 
