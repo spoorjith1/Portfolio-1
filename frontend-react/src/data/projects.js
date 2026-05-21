@@ -124,10 +124,12 @@ const projects = [
     tech: ["Django", "DRF", "React", "Postgresql"],
 
     image:
-      "",
+      "/zlite/zlite0.png",
 
     images: [
-      "",
+      "/zlite/zlite1.png",
+      "/zlite/zlite2.png",
+      "/zlite/zlite3.png"
     ],
 
     github: "https://github.com/yourusername/blog-api",
