@@ -231,6 +231,37 @@ const projects = [
     github: "https://github.com/spoorjith1/Private-Chat-app",
 
     live: ""
+  },
+
+  {
+    id: 8,
+    title: "Data sharing with access key",
+    description: "share a file to anyone with share token and access key",
+
+    details:
+      "Django-DRF & React.js Project for storing files in a databse and allowing a user to get or access the file using a secure share token and access key and the other user will receive the file accordingly while not showing the user data.",
+
+    features: [
+      "Authentication",
+      "Store Data (Images, PDF Files, Zips and more)",
+      "Secure",
+      "Share token and Access Key"
+    ],
+
+    tech: ["Django REST Framework", "React.js"],
+
+    image:
+      "/upcloud/upcloud0.png",
+
+    images: [
+      "/upcloud/upcloud1.png",
+      "/upcloud/upcloud2.png",
+      "/upcloud/upcloud3.png",
+    ],
+
+    github: "https://github.com/spoorjith1/Private-Chat-app",
+
+    live: ""
   }
 ];
 
