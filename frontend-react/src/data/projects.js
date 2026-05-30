@@ -18,7 +18,7 @@ const projects = [
     tech: ["Django", "DRF", "React.js", "PostgreSQL"],
 
     image:
-      "/clickmart/clickmart0.png",
+      "/clickmart/clickmart000.png",
 
     images: [
       "/clickmart/clickmart1.png",
@@ -53,7 +53,7 @@ const projects = [
     tech: ["Django", "DRF", "React", "Postgresql"],
 
     image:
-      "/zlite/zlite0.png",
+      "/zlite/zlite000.png",
 
     images: [
       "/zlite/zlite1.png",
@@ -86,7 +86,7 @@ const projects = [
     tech: ["Django-DRF", "Django channels", "search filters", "React.js"],
 
     image:
-      "/chatapp/chatapp1.png",
+      "/chatapp/chatapp000.png",
 
     images: [
       "/chatapp/chatapp1.png",
