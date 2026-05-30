@@ -9,14 +9,14 @@ function Hero() {
 
           {/* Left Side */}
           <div className="col-md-6 text-center text-md-start mb-4 mb-md-0">
-            <h1 className="hero-title">Hi, I'm Spoorjith Malebalu</h1>
+            <h1 className="hero-title">Hi, I'm <span className='hero-title-name'>Spoorjith Malebalu</span></h1>
             <h4 className="hero-subtitle">
-              Backend-Focused FullStack Developer | Python Django, DRF, & React.js
+              Backend-Focused FullStack Developer | Python Django, Django REST Framework & React.js
             </h4>
             <p className="hero-text">
-              I build scalable backend systems, APIs, and full-stack applications.
+              I build scalable backend systems, REST APIs and full-stack applications.
             </p>
-            <a href="mailto:spoorjith1@gmail.com" target="_blank" className='hero-mail'>spoorjith1@gmail.com</a>
+            <a href="mailto:spoorjith1@gmail.com" target="_blank" className='hero-mail'>spoorjith1@gmail.com</a><br />
 
             <div className="d-flex gap-3 justify-content-center justify-content-md-start mt-3">
               <Link to="/projects" className="btn btn-orange heros-btn">

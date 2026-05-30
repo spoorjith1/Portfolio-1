@@ -15,7 +15,7 @@ function ProjectCard({ project }) {
             <span key={index}>{tech}</span>
           ))}
         </div>
-        {project.live == "" ? (
+        {project.live === "" ? (
           <div>
           </div>) : (
           <div>
@@ -27,6 +27,12 @@ function ProjectCard({ project }) {
         <Link to={`/projects/${project.id}`} className='btn btn-orange details-btn'>View Details</Link>
         <a href={project.github} target='_blank' className='btn btn-light code-btn'>View Code <i className='fab fa-github'></i></a>
       </div>
+
+      {project.star === "yes" ? (
+        <img src={project.star_symbol} className='star-symbol' />
+      ) : (
+        <span></span>
+      )}
     </div>
   );
 }

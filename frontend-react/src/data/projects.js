@@ -32,7 +32,8 @@ const projects = [
 
     live: "https://clickmartsp.shop",
 
-    star: "yes"
+    star: "yes",
+    star_symbol: "/star_symbol.png"
   },
 
   {
@@ -65,7 +66,8 @@ const projects = [
 
     live: "",
 
-    star: "yes"
+    star: "yes",
+    star_symbol: "/star_symbol.png"
   },
 
   {
@@ -99,7 +101,8 @@ const projects = [
 
     live: "",
 
-    star: "yes"
+    star: "yes",
+    star_symbol: "/star_symbol.png"
   },
 
   {
@@ -138,7 +141,8 @@ const projects = [
 
     live: "",
 
-    star: "yes"
+    star: "yes",
+    star_symbol: "/star_symbol.png"
   },
 
   {
@@ -171,7 +175,8 @@ const projects = [
 
     live: "",
 
-    star: "no"
+    star: "no",
+    star_symbol: "/star_symbol.png"
   },
 
   {
@@ -204,7 +209,8 @@ const projects = [
 
     live: "",
 
-    star: "no"
+    star: "no",
+    star_symbol: "/star_symbol.png"
   },
 
   {
@@ -236,7 +242,8 @@ const projects = [
 
     live: "",
 
-    star: "no"
+    star: "no",
+    star_symbol: "/star_symbol.png"
   },
 
   {
@@ -269,7 +276,8 @@ const projects = [
 
     live: "https://movie-search-sp.netlify.app",
 
-    star: "no"
+    star: "no",
+    star_symbol: "/star_symbol.png"
   },
 ];
 
