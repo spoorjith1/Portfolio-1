@@ -411,6 +411,11 @@ body {
   margin-top: 15px;
 }
 
+.project-description {
+  color: #cbcbcb;
+  font-size: 0.9rem;
+}
+
 .details-btn {
   flex: 2;
 }

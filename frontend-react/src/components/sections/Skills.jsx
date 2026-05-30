@@ -9,7 +9,6 @@ function Skills() {
 
         <div className="row g-4">
 
-          {/* Frontend */}
           <div className="col-md-4">
             <div className="skill-card">
               <h4>Frontend</h4>
@@ -22,7 +21,6 @@ function Skills() {
             </div>
           </div>
 
-          {/* Backend */}
           <div className="col-md-4">
             <div className="skill-card">
               <h4>Backend</h4>
@@ -30,23 +28,20 @@ function Skills() {
                 <span>Python</span>
                 <span>Django</span>
                 <span>DRF</span>
-                <span>SQL</span>
                 <span>REST APIs</span>
                 <span>Flask (Basics)</span>
-                <span>FastAPI (Basics)</span>
-                <span>MySQL</span>
-                <span>PostgreSQL</span>
                 <span>Numpy, pandas, matlpotlib (Basics)</span>
               </div>
             </div>
           </div>
 
-          {/* Tools */}
           <div className="col-md-4">
             <div className="skill-card">
-              <h4>Tools & others</h4>
+              <h4>DataBase & Tools</h4>
               <div className="skills-list">
-                <span>Git</span>
+                <span>SQL</span>
+                <span>MySQL</span>
+                <span>PostgreSQL</span>
                 <span>Postman</span>
                 <span>VS Code</span>
               </div>

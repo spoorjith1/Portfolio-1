@@ -7,7 +7,7 @@ function ProjectCard({ project }) {
       <img src={project.image} alt={project.title} className='project-img' />
 
       <h5 className=' mt-1'>{project.title}</h5>
-      <p>{project.description}</p>
+      <p className='project-description'>{project.description}</p>
 
       <div className='tech-row'>
         <div className="tech-list">
