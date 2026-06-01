@@ -7,10 +7,10 @@
   --text-secondary: #A3A3A3;
   --text-muted: #737373;
 
-  --accent: #F97316;        /* Orange */
+  --accent: #F97316;
   --accent-hover: #d4520b;
 
-  --secondary: #22D3EE;     /* Cyan */
+  --secondary: #22D3EE;
   --secondary-light: #67E8F9;
 
   --border: #ffffff14;
@@ -78,6 +78,7 @@ body {
   color: var(--text-primary) !important;
   transition: 0.3s;
 }
+
 
 /* Hover effect */
 .nav-link:hover {
@@ -149,6 +150,7 @@ body {
   border-radius: 6px;
   display: inline-block;
 }
+
 
 .btn-orange:hover {
   background-color:  var(--accent-hover) !important;
