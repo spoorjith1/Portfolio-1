@@ -28,7 +28,7 @@ const projects = [
       "/clickmart/clickmart5.png",
     ],
 
-    github: "https://github.com/yourusername/ecommerce-api",
+    github: "https://github.com/spoorjith1/clickmart-drf",
 
     live: "https://clickmartsp.shop",
 
@@ -62,7 +62,7 @@ const projects = [
       "/zlite/zlite3.png"
     ],
 
-    github: "https://github.com/yourusername/blog-api",
+    github: "https://github.com/spoorjith1/mini-instagram",
 
     live: "",
 
@@ -171,7 +171,7 @@ const projects = [
       "/upcloud/upcloud3.png",
     ],
 
-    github: "https://github.com/spoorjith1/Private-Chat-app",
+    github: "https://github.com/spoorjith1/File-Sharing_Using_Token",
 
     live: "",
 
@@ -215,6 +215,72 @@ const projects = [
 
   {
     id: 7,
+      title: "Advanced E-commerce - ShopMore",
+      description: "Full-stack e-commerce application",
+      
+      details:
+        "A scalable backend system built using Django and DRF. It supports user authentication, product management, cart system, and order processing. Designed with proper database relations and secure API endpoints.",
+
+      features: [
+        "JWT Authentication",
+        "Cart & Order System",
+        "Admin Dashboard",
+        "order history",
+        "Custom user products",
+        "Secure API endpoints"
+      ],
+
+      tech: ["Django", "DRF", "React.js", "MySQL"],
+
+      image:
+        "",
+
+      images: [
+        ""
+      ],
+
+      github: "https://github.com/spoorjith1/Advanced_E-Commerce_SHOPMORE",
+
+      live: "",
+
+      star: "yes",
+      star_symbol: "/star_symbol.png"
+  },
+
+  {
+    id: 8,
+      title: "Bus ticket Booking - GoBus",
+      description: "Full-stack web applicaiton for Bus ticket booking",
+      
+      details:
+        "A scalable backend system built using Django and DRF.",
+
+      features: [
+        "JWT Authentication",
+        "Admin Dashboard",
+        "travel & ticket history",
+        "Secure API endpoints"
+      ],
+
+      tech: ["Django", "DRF", "React.js", "PostgreSQL"],
+
+      image:
+        "",
+
+      images: [
+        ""
+      ],
+
+      github: "https://github.com/spoorjith1/Bus_ticket_booking-GoBus",
+
+      live: "",
+
+      star: "yes",
+      star_symbol: "/star_symbol.png"
+  },
+
+  {
+    id: 9,
     title: "Authentication system using DRF_JWT",
     description: "Secure JWT authentication API with user registration, login, profile management, and authorization.",
 
@@ -247,7 +313,7 @@ const projects = [
   },
 
   {
-    id: 8,
+    id: 10,
     title: "Movies Search (React Project)",
     description: "React application for discovering, searching movies, and managing favorites.",
 
