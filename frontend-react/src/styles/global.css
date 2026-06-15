@@ -592,3 +592,54 @@ body {
     width: 95%;
   }
 }
+
+/*resume page*/
+.resume-page {
+  background-color: var(--bg-secondary);
+}
+
+.resume-heading {
+  text-align: center;
+  color: var(--accent);
+  padding: 1rem 0;
+}
+
+.options-container {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  border: 1px solid var(--border-strong);
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 5px var(--border-strong);
+}
+
+.resume-download-btn {
+  background-color: var(--accent) !important;
+}
+.resume-download-btn:hover {
+  background-color: var(--accent-hover) !important;
+}
+
+.resume-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem;
+}
+
+.resume-screenshot {
+  width: 100%;
+  max-width: 650px;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .resume-container {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .resume-download-btn {
+    font-size: 0.85rem !important;
+  }
+}
