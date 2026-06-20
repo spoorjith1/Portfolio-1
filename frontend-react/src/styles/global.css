@@ -51,9 +51,17 @@
   box-sizing: border-box;
 }
 
+* {
+  outline: 1px solid red;
+}
+
 body {
   background-color: var(--bg);
+}
+
+html, body {
   overflow-x: hidden;
+  max-width: 100%;
 }
 
 /* Navbar Background */
@@ -536,6 +544,13 @@ body {
   color: #ffffffd1;
 }
 
+@media (max-width: 768px) {
+  .contact-mails-box {
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+  }
+}
 
 .social-link i {
   font-size: 1rem;
