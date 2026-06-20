@@ -38,6 +38,38 @@ const projects = [
 
   {
     id: 2,
+      title: "Bus ticket Booking - GoBus",
+      description: "Full-stack web applicaiton for Bus ticket booking",
+      
+      details:
+        "A scalable backend system built using Django and DRF.",
+
+      features: [
+        "JWT Authentication",
+        "Admin Dashboard",
+        "travel & ticket history",
+        "Secure API endpoints"
+      ],
+
+      tech: ["Django", "DRF", "React.js", "PostgreSQL"],
+
+      image:
+        "",
+
+      images: [
+        ""
+      ],
+
+      github: "https://github.com/spoorjith1/Bus_ticket_booking-GoBus",
+
+      live: "",
+
+      star: "yes",
+      star_symbol: "/star_symbol.png"
+  },
+
+  {
+    id: 3,
     title: "Mini Instagram (social media app)",
     description: "Instagram type social platform with authentication,making friends, and sharing images.",
 
@@ -71,7 +103,7 @@ const projects = [
   },
 
   {
-    id: 3,
+    id: 4,
     title: "Chat App",
     description: "Real-time private messaging application built using Django Channels, DRF and React.",
 
@@ -106,7 +138,7 @@ const projects = [
   },
 
   {
-    id: 4,
+    id: 5,
     title: "Stock Prediction Portal",
     description: "Machine learning-based stock prediction platform with previous years data and analysing the data.",
 
@@ -146,7 +178,7 @@ const projects = [
   },
 
   {
-    id: 5,
+    id: 6,
     title: "Data sharing with access key",
     description: "Secure file-sharing platform using access keys and share tokens.",
 
@@ -180,7 +212,7 @@ const projects = [
   },
 
   {
-    id: 6,
+    id: 7,
     title: "Note Book",
     description: "Authenticated note management application with CRUD functionalities.",
 
@@ -214,7 +246,7 @@ const projects = [
   },
 
   {
-    id: 7,
+    id: 8,
       title: "Advanced E-commerce - ShopMore",
       description: "Full-stack e-commerce application",
       
@@ -240,38 +272,6 @@ const projects = [
       ],
 
       github: "https://github.com/spoorjith1/Advanced_E-Commerce_SHOPMORE",
-
-      live: "",
-
-      star: "yes",
-      star_symbol: "/star_symbol.png"
-  },
-
-  {
-    id: 8,
-      title: "Bus ticket Booking - GoBus",
-      description: "Full-stack web applicaiton for Bus ticket booking",
-      
-      details:
-        "A scalable backend system built using Django and DRF.",
-
-      features: [
-        "JWT Authentication",
-        "Admin Dashboard",
-        "travel & ticket history",
-        "Secure API endpoints"
-      ],
-
-      tech: ["Django", "DRF", "React.js", "PostgreSQL"],
-
-      image:
-        "",
-
-      images: [
-        ""
-      ],
-
-      github: "https://github.com/spoorjith1/Bus_ticket_booking-GoBus",
 
       live: "",
 

@@ -24,8 +24,8 @@ function ProjectCard({ project }) {
       </div>
 
       <div className='project-buttons'>
-        <Link to={`/projects/${project.id}`} className='btn btn-orange details-btn'>View Details</Link>
         <a href={project.github} target='_blank' className='btn btn-light code-btn'>View Code <i className='fab fa-github'></i></a>
+        <Link to={`/projects/${project.id}`} className='btn btn-orange details-btn'>View Details</Link>
       </div>
 
       {project.star === "yes" ? (

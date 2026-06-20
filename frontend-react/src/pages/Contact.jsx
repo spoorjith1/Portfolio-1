@@ -16,27 +16,33 @@ function Contact() {
         <div className="contact-links">
 
           <div className="contact-row">
-            <a href="mailto:spoorjith1@gmail.com" target="_blank" className="social-link"><i className="fas fa-envelope"></i> Email</a>
-            <a href="https://github.com/spoorjith1" target="_blank" className="social-link"><i className="fab fa-github"></i> GitHub</a>
+            <a href="mailto:spoorjith1@gmail.com" target="_blank" className="social-link"><i className="fas fa-envelope"></i>Email</a>
+            <a href="https://github.com/spoorjith1" target="_blank" className="social-link"><i className="fab fa-github"></i>GitHub</a>
           </div>
 
           <div className="contact-row">
             <a href="https://www.linkedin.com/in/spoorjith-malebalu-3545763b0/" target="_blank" className="social-link">
-              <i className="fab fa-linkedin"></i> LinkedIn
+              <i className="fab fa-linkedin"></i>LinkedIn
             </a>
             <a href="https://profile.indeed.com/?hl=en_IN&co=IN&from=gnav-jobseeker-profile--profile-one-frontend" target="_blank" className="social-link">
-              <i className="fas fa-briefcase"></i> Indeed
+              <i className="fas fa-briefcase"></i>Indeed
             </a>
             <a href="https://www.naukri.com/mnjuser/profile?id=&altresid" target="_blank" className="social-link">
-              <i className="fas fa-user-tie"></i> Naukri
+              <i className="fas fa-user-tie"></i>Naukri
             </a>
           </div>
 
           <div className="contact-row">
-            <a href="https://www.instagram.com/spoorjith/" target="_blank" className="social-link"><i className="fab fa-instagram"></i> Instagram</a>
-            <a href="https://www.facebook.com/profile.php?id=61586036255799" target="_blank" className="social-link">
-              <i className="fab fa-facebook"></i> Facebook
+            <a href="https://www.instagram.com/spoorjith/" target="_blank" className="social-link">
+              <i className="fab fa-instagram"></i>Instagram
             </a>
+            <a href="https://www.facebook.com/profile.php?id=61586036255799" target="_blank" className="social-link">
+              <i className="fab fa-facebook"></i>Facebook
+            </a>
+          </div>
+
+          <div className='contact-row'>
+            <span className='contact-number'><i class="fa-brands fa-whatsapp"></i><i class="fa-solid fa-phone"></i> +91 7995295137</span>
           </div>
 
         </div>

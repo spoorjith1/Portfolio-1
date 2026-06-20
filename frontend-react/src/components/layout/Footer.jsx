@@ -15,7 +15,7 @@ function Footer() {
           <a href="https://www.linkedin.com/in/spoorjith-malebalu-3545763b0/" target="_blank"><i className='fab fa-linkedin'></i> LinkedIn</a>
         </div>
 
-        <p className="footer-copy">&copy; 2026 Spoorjith, All rights reserved.</p>
+        <p className="footer-copy">&copy; 2026 Spoorjith</p>
 
       </div>
     </footer>

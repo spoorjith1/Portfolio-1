@@ -11,7 +11,7 @@ function Hero() {
           <div className="col-md-6 text-center text-md-start mb-4 mb-md-0">
             <h1 className="hero-title">Hi, I'm <span className='hero-title-name'>Spoorjith Malebalu</span></h1>
             <h4 className="hero-subtitle">
-              Backend-Focused FullStack Developer | Python Django, Django REST Framework & React.js
+              Backend-Focused FullStack Developer | Python, Django, Django REST Framework & React.js
             </h4>
             <p className="hero-text">
               I build scalable backend systems, REST APIs and full-stack applications.
