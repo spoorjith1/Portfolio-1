@@ -9,7 +9,7 @@ function About() {
       <h2 className="section-title mb-4">About Me</h2>
 
       <p className="about-text">
-        Hi, Im a backend-focused full stack developer. passionate about building APIs, efficient backend systems using Django and Django REST Framework, and Building frontend applications using React.js and css.
+        Hi, Im a backend-focused full stack developer. passionate about building APIs, efficient backend systems using Django REST Framework, and building frontend applications using React.js & css.
         I enjoy building real-world applications, solving problems, designing clean architectures, building unqiue applications using my skills and continuously improving my development skills.
       </p>
       <p className="about-text">
@@ -17,7 +17,7 @@ function About() {
       </p>
       <br />
       <div>
-        <Link to='/certificates' className='certificates-link'>My Certificates</Link>
+        <Link to='/certificates' className='certificates-link'>My Certificates ↗</Link>
       </div>
     </div>
   </section>

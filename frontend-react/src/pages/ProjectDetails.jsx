@@ -42,7 +42,7 @@ function ProjectDetails() {
 
         {project.live ? (
           <div className="detail-live-demo-div">
-            <a href={project.live} target='_blank' class='detail-live-demo'>Live Demo</a>
+            <a href={project.live} target='_blank' className='detail-live-demo'>Live Demo</a>
           </div>
         ) : (<div>-</div>)}
 

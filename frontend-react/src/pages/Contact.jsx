@@ -41,8 +41,12 @@ function Contact() {
             </a>
           </div>
 
-          <div className='contact-row'>
+          <div className='contact-direct'>
             <span className='contact-number'><i class="fa-brands fa-whatsapp"></i><i class="fa-solid fa-phone"></i> +91 7995295137</span>
+            <div className='contact-mails-box'>
+              <span className='contact-mails'>spoorjith1@gamil.com</span>
+              <span className='contact-mails'>spoorjithchiru@gmail.com</span>
+            </div>
           </div>
 
         </div>
