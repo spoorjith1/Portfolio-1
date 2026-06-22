@@ -1,6 +1,6 @@
 :root {
   --bg: #050505;
-  --bg-secondary: #1a1a1a;
+  --bg-secondary: #1c1c1c;
   --bg-card: #0e0e0e;
 
   --text-primary: #F5F5F5;
@@ -222,6 +222,12 @@ html, body {
   background-color: var(--bg-secondary);
   color: var(--text-primary);
 }
+@media (max-width: 768px) {
+  .projects-section {
+    background-color: #292929;
+  }
+}
+
 
 /* Card */
 .project-card {
@@ -251,6 +257,11 @@ html, body {
   transform: scale(1.02);
   transition: 300ms;
   box-shadow: 0 4px 8px black;
+}
+@media (max-width: 768px) {
+  .project-card:hover {
+    box-shadow: 0 0 4px black;
+  }
 }
 
 /* Tech tags */

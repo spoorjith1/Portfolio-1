@@ -5,7 +5,7 @@ const projects = [
     description: "Full-stack e-commerce application with JWT authentication, cart management, and order processing",
     
     details:
-      "A scalable backend system built using Django and DRF. It supports user authentication, product management, cart system, and order processing. Designed with proper database relations and secure API endpoints.",
+      "A scalable backend system built using Django and DRF. It supports user authentication, product management, cart system, and order processing. Designed with proper database relations and secure API endpoints. used gunicorn, docker and Deployed to live server (linode)",
 
     features: [
       "JWT Authentication",
@@ -86,7 +86,7 @@ const projects = [
     tech: ["Django", "DRF", "React", "Postgresql"],
 
     image:
-      "/zlite/zlite000.png",
+      "/zlite/zlite0.png",
 
     images: [
       "/zlite/zlite1.png",
@@ -120,7 +120,7 @@ const projects = [
     tech: ["Django-DRF", "Django channels", "search filters", "React.js"],
 
     image:
-      "/chatapp/chatapp000.png",
+      "/chatapp/chatapp0.png",
 
     images: [
       "/chatapp/chatapp1.png",
@@ -155,7 +155,7 @@ const projects = [
     tech: ["Numpy", "Pandas", "Matplotlib", "Django", "ML", "React"],
 
     image:
-      "/stockprediction/stockpred2.png",
+      "/stockprediction/stockpred0.png",
 
     images: [
       "/stockprediction/stockpred1.png",
