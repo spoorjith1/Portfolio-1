@@ -213,6 +213,41 @@ const projects = [
 
   {
     id: 7,
+    title: "Account Deletion & Recovery System",
+    description: "Secure account deletion and recovery system.",
+
+    details:
+      "Built a full-stack account management application using Django REST Framework and React. Users can register, login with JWT authentication, change passwords, schedule account deletion, restore accounts before deletion, and automatically remove expired accounts using a custom Django management command.",
+
+    features: [
+      "JWT Authentication",
+      "Secure Password Change using Current Password",
+      "30-Day Account Deletion Scheduling",
+      "Restore account before permanent deletion",
+      "Automatic deletion of Expired Accounts using Django Management Command"
+    ],
+
+    tech: ["Python", "JWT","Django", "DRF", "React"],
+
+    image:
+      "/accDel/accDel0.png",
+
+    images: [
+      "/accDel/accDel1.png",
+      "/accDel/accDel2.png",
+      "/accDel/accDel3.png"
+    ],
+
+    github: "https://github.com/spoorjith1/Django-Account-Deletion-System",
+
+    live: "",
+
+    star: "no",
+    star_symbol: "/star_symbol.png"
+  },
+
+  {
+    id: 8,
     title: "Note Book",
     description: "Authenticated note management application with CRUD functionalities.",
 
@@ -246,7 +281,7 @@ const projects = [
   },
 
   {
-    id: 8,
+    id: 9,
       title: "Advanced E-commerce - ShopMore",
       description: "Full-stack e-commerce application",
       
@@ -280,7 +315,7 @@ const projects = [
   },
 
   {
-    id: 9,
+    id: 10,
     title: "Authentication system using DRF_JWT",
     description: "Secure JWT authentication API with user registration, login, profile management, and authorization.",
 
@@ -313,7 +348,7 @@ const projects = [
   },
 
   {
-    id: 10,
+    id: 11,
     title: "Movies Search (React Project)",
     description: "React application for discovering, searching movies, and managing favorites.",
 
