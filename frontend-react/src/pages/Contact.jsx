@@ -21,7 +21,7 @@ function Contact() {
           </div>
 
           <div className="contact-row">
-            <a href="https://www.linkedin.com/in/spoorjith-malebalu-3545763b0/" target="_blank" className="social-link">
+            <a href="https://www.linkedin.com/in/spoorjith/" target="_blank" className="social-link">
               <i className="fab fa-linkedin"></i>LinkedIn
             </a>
             <a href="https://profile.indeed.com/?hl=en_IN&co=IN&from=gnav-jobseeker-profile--profile-one-frontend" target="_blank" className="social-link">
