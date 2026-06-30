@@ -213,6 +213,40 @@ const projects = [
 
   {
     id: 7,
+    title: "Email Verification & OTP Authentication",
+    description: "Account verification and password reset using OTP",
+
+    details:
+      "Built a Email verification system using Django REST Framework and React.js. Users can register, verify email using OTP, login with JWT authentication and change passwords using OTP.",
+
+    features: [
+      "User registratin with Email verification using OTP",
+      "JWT Authentication for Login",
+      "Resend OTP & OTP expiry with one time usage",
+      "change password securely using Email OTP"
+    ],
+
+    tech: ["Python", "JWT", "Django", "DRF", "React"],
+
+    image:
+      "/EmailOTP/EmailOTP0.png",
+
+    images: [
+      "/EmailOTP/EmailOTP1.png",
+      "/EmailOTP/EmailOTP2.png",
+      "/EmailOTP/EmailOTP3.png",
+    ],
+
+    github: "https://github.com/spoorjith1/Eamil_verification_and_OTP_auth",
+
+    live: "",
+
+    star: "no",
+    star_symbol: "/star_symbol.png"
+  },
+
+  {
+    id: 8,
     title: "Account Deletion & Recovery System",
     description: "Secure account deletion and recovery system.",
 
@@ -227,7 +261,7 @@ const projects = [
       "Automatic deletion of Expired Accounts using Django Management Command"
     ],
 
-    tech: ["Python", "JWT","Django", "DRF", "React"],
+    tech: ["Python", "JWT", "Django", "DRF", "React"],
 
     image:
       "/accDel/accDel0.png",
@@ -247,7 +281,7 @@ const projects = [
   },
 
   {
-    id: 8,
+    id: 9,
     title: "Note Book",
     description: "Authenticated note management application with CRUD functionalities.",
 
@@ -281,7 +315,7 @@ const projects = [
   },
 
   {
-    id: 9,
+    id: 10,
       title: "Advanced E-commerce - ShopMore",
       description: "Full-stack e-commerce application",
       
@@ -315,7 +349,7 @@ const projects = [
   },
 
   {
-    id: 10,
+    id: 11,
     title: "Authentication system using DRF_JWT",
     description: "Secure JWT authentication API with user registration, login, profile management, and authorization.",
 
@@ -348,7 +382,7 @@ const projects = [
   },
 
   {
-    id: 11,
+    id: 12,
     title: "Movies Search (React Project)",
     description: "React application for discovering, searching movies, and managing favorites.",
 
