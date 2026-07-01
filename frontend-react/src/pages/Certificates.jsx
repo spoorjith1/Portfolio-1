@@ -7,7 +7,7 @@ function Certificates() {
       <div className='certificate-container'>
         <img src='TWR_certificate1.jpeg' className='certificate c1' />
         <img src='TWR_certificate2.jpeg' className='certificate c2' />
-        <img src='NareshIT_certificate.png' className='certiicate c3' />
+        <img src='NareshIT_certificate.png' className='certificate c3' />
       </div>
     </div>
   )
