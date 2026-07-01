@@ -58,12 +58,11 @@ html, body {
   max-width: 100%;
 }
 
-/* Navbar Background */
 .custom-navbar {
   background-color: var(--bg-card);
 }
 
-/* Logo */
+
 .logo {
   color: var(--text-primary) !important;
   font-size: 1.6rem !important;
@@ -75,19 +74,16 @@ html, body {
   color: var(--accent) !important;
 }
 
-/* Links */
+
 .nav-link {
   color: var(--text-primary) !important;
   transition: 0.3s;
 }
 
-
-/* Hover effect */
 .nav-link:hover {
   color:  var(--accent) !important;
 }
 
-/* Active link */
 .nav-link.active {
   color: var(--accent) !important;
   font-weight: 500;
@@ -103,8 +99,6 @@ html, body {
   filter: invert(1);
 }
 
-
-
 /* Hero Section */
 .hero-section {
   background: linear-gradient(135deg, var(--bg-secondary), var(--bg-card));
@@ -113,7 +107,6 @@ html, body {
   position: relative;
 }
 
-/* Title */
 .hero-title {
   font-size: 2.5rem;
   font-weight: 700;
@@ -129,21 +122,17 @@ html, body {
   100% { color: inherit }
 }
 
-
-/* Subtitle */
 .hero-subtitle {
   color: var(--secondary-light);
   margin-top: 10px;
 }
 
-/* Text */
 .hero-text {
   max-width: 500px;
   margin-top: 15px;
   color: #cbd5e1;
 }
 
-/* Buttons */
 .btn-orange {
   background-color: var(--accent) !important;
   color: white !important;
@@ -159,7 +148,6 @@ html, body {
   background-color:  var(--accent-hover) !important;
 }
 
-/* Image */
 .hero-img {
   max-width: 260px;
   border-radius: 50%;
@@ -168,21 +156,17 @@ html, body {
 }
 
 
-
-/* Section */
 .skills-section {
   padding: 60px 0;
   background-color: var(--bg);
   color: var(--text-primary);
 }
 
-/* Title */
 .section-title {
   font-size: 2rem;
   font-weight: 600;
 }
 
-/* Card */
 .skill-card {
   background-color: var(--bg-card);
   padding: 25px;
@@ -192,7 +176,6 @@ html, body {
   transition: 0.3s;
 }
 
-/* Hover effect */
 .skill-card:hover {
   transform: scale(1.04);
   border: 1px solid #2e4b7a;
@@ -207,7 +190,6 @@ html, body {
   justify-content: center;
 }
 
-/* Individual skill */
 .skills-list span {
   background-color: var(--bg-secondary);
   padding: 6px 12px;
@@ -229,7 +211,7 @@ html, body {
 }
 
 
-/* Card */
+/*Project Card */
 .project-card {
   background-color: var(--bg-card);
   padding: 20px;
@@ -251,8 +233,6 @@ html, body {
   height: 1.8rem;
 }
 
-
-/* Hover */
 .project-card:hover {
   transform: scale(1.02);
   transition: 300ms;
@@ -264,7 +244,6 @@ html, body {
   }
 }
 
-/* Tech tags */
 .tech-row {
   display: flex;
   justify-content: space-between;
@@ -331,7 +310,6 @@ html, body {
   margin-top: 10px;
 }
 
-/* Links */
 .footer-links {
   display: flex;
   justify-content: center;
