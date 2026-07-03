@@ -54,10 +54,10 @@ const projects = [
       tech: ["Django", "DRF", "React.js", "PostgreSQL"],
 
       image:
-        "",
+        "/btb/btb1.png",
 
       images: [
-        ""
+        "/btb/btb1.png"
       ],
 
       github: "https://github.com/spoorjith1/Bus_ticket_booking-GoBus",
