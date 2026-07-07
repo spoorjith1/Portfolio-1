@@ -57,7 +57,16 @@ const projects = [
         "/btb/btb1.png",
 
       images: [
-        "/btb/btb1.png"
+        "/btb/btb2.png",
+        "/btb/btb3.png",
+        "/btb/btb4.png",
+        "/btb/btb5.png",
+        "/btb/btb6.png",
+        "/btb/btb7.png",
+        "/btb/btb8.png",
+        "/btb/btb9.png",
+        "/btb/btb10.png",
+        "/btb/btb11.png"
       ],
 
       github: "https://github.com/spoorjith1/Bus_ticket_booking-GoBus",
