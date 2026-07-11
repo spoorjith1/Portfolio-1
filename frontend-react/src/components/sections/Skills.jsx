@@ -16,7 +16,7 @@ function Skills() {
                 <span>HTML</span>
                 <span>CSS</span>
                 <span>JavaScript</span>
-                <span>React</span>
+                <span>React.js</span>
                 <span>Bootstrap</span>
               </div>
             </div>
@@ -28,9 +28,9 @@ function Skills() {
               <div className="skills-list">
                 <span>Python</span>
                 <span>Django</span>
-                <span>DRF</span>
+                <span>Django REST Framework</span>
                 <span>REST APIs</span>
-                <span>Flask (Basics)</span>
+                <span>JWT Authentication</span>
                 <span>Numpy, pandas, matlpotlib (Basics)</span>
               </div>
             </div>
@@ -43,7 +43,7 @@ function Skills() {
                 <span>SQL</span>
                 <span>MySQL</span>
                 <span>PostgreSQL</span>
-                <span>Postman</span>
+                <span>Postman API</span>
                 <span>VS Code</span>
               </div>
             </div>

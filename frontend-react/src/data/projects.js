@@ -18,7 +18,7 @@ const projects = [
     tech: ["Django", "DRF", "React.js", "PostgreSQL"],
 
     image:
-      "/clickmart/clickmart000.png",
+      "/clickmart/clickmart0.png",
 
     images: [
       "/clickmart/clickmart1.png",
@@ -39,34 +39,42 @@ const projects = [
   {
     id: 2,
       title: "Bus ticket Booking - GoBus",
-      description: "Full-stack web applicaiton for Bus ticket booking",
+      description: "Bus Ticket booking application built using Django REST Framework. Features include role-based access, searching, ticket booking...",
       
       details:
-        "A scalable backend system built using Django and DRF.",
+        "Full stack wbe application built using Django REST Framework and react.js. The application is developed securely using REST APIs for role based authorization for customers, operators and administration. A user can search & filter schedules, select seats of there comfort, easy ticket booking process, user can access there booking history. An operator can add buses and create schedules to there belonging buses. Admin can create routes and operators.",
 
       features: [
         "JWT Authentication",
-        "Admin Dashboard",
-        "travel & ticket history",
-        "Secure API endpoints"
+        "Role-based Dashboards",
+        "Searching and filtering schedules",
+        "Seat selection",
+        "booking history",
+        "easy payment process",
+        "RESTful APIs"
       ],
 
-      tech: ["Django", "DRF", "React.js", "PostgreSQL"],
+      tech: ["Django", "DRF", "React.js", "MySQL"],
 
       image:
         "/btb/btb1.png",
 
       images: [
+        "/btb/btb1.png",
         "/btb/btb2.png",
         "/btb/btb3.png",
-        "/btb/btb4.png",
-        "/btb/btb5.png",
-        "/btb/btb6.png",
-        "/btb/btb7.png",
-        "/btb/btb8.png",
-        "/btb/btb9.png",
-        "/btb/btb10.png",
-        "/btb/btb11.png"
+        "/btb/btbC1.png",
+        "/btb/btbC2.png",
+        "/btb/btbC3.png",
+        "/btb/btbC4.png",
+        "/btb/btbC5.png",
+        "/btb/btbC6.png",
+        "/btb/btbA1.png",
+        "/btb/btbA2.png",
+        "/btb/btbA3.png",
+        "/btb/btbO1.png",
+        "/btb/btbO2.png",
+        "/btb/btbO3.png",
       ],
 
       github: "https://github.com/spoorjith1/Bus_ticket_booking-GoBus",
@@ -114,7 +122,7 @@ const projects = [
   {
     id: 4,
     title: "Chat App",
-    description: "Real-time private messaging application built using Django Channels, DRF and React.",
+    description: "Real-time private messaging application built using Django, DRF and React.js.",
 
     details:
       "Using Django-DRF and django channels, search-filters and react for frontend built an chatting application where a user can login and send friend requests to other users and can chat with them one-one privately.",
