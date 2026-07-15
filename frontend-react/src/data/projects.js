@@ -264,6 +264,43 @@ const projects = [
 
   {
     id: 8,
+    title: "Google OAuth Authentication",
+    description: "Secure Google Sign-In authentication using OAuth 2.0, Django REST Framework, JWT.",
+
+    details:
+      "Built a full-stack authentication system where users can securely sign in using their Google account without manual registration. Google ID tokens are verified on the Django backend, users will automatically be created or updated if they logged in before, login history, and generated JWT access & refresh tokens for protected REST APIs.",
+
+    features: [
+      "Google OAuth 2.0 authentication",
+      "Google ID Token verification",
+      "Automatic user registration & login",
+      "JWT access & refresh tokens",
+      "Protected REST APIs",
+      "React Frontend"
+    ],
+
+    tech: ["Python", "Django", "DRF", "Google Auth", "simple JWT", "React"],
+
+    image:
+      "/googleauth/googleauth0.png",
+
+    images: [
+      "/googleauth/googleauth1.png",
+      "/googleauth/googleauth2.png",
+      "/googleauth/googleauth3.png",
+      "/googleauth/googleauth4.png"
+    ],
+
+    github: "https://github.com/spoorjith1/Django-Google-Authentication",
+
+    live: "",
+
+    star: "no",
+    star_symbol: "/star_symbol.png"
+  },
+
+  {
+    id: 9,
     title: "Account Deletion & Recovery System",
     description: "Secure account deletion and recovery system.",
 
@@ -298,7 +335,7 @@ const projects = [
   },
 
   {
-    id: 9,
+    id: 10,
     title: "Note Book",
     description: "Authenticated note management application with CRUD functionalities.",
 
@@ -332,7 +369,7 @@ const projects = [
   },
 
   {
-    id: 10,
+    id: 11,
       title: "Advanced E-commerce - ShopMore",
       description: "Full-stack e-commerce application",
       
@@ -366,7 +403,7 @@ const projects = [
   },
 
   {
-    id: 11,
+    id: 12,
     title: "Authentication system using DRF_JWT",
     description: "Secure JWT authentication API with user registration, login, profile management, and authorization.",
 
@@ -399,7 +436,7 @@ const projects = [
   },
 
   {
-    id: 12,
+    id: 13,
     title: "Movies Search (React Project)",
     description: "React application for discovering, searching movies, and managing favorites.",
 
